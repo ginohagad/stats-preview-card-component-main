@@ -1,0 +1,53 @@
+:root {
+  --main-bg-color: hsl(233, 47%, 7%);
+  --card-bg-color: hsl(244, 38%, 16%);
+  --cardimage-bg-color: hsl(244, 38%, 16%, 0.5);
+  --accent-color: hsl(277, 64%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --white-main-par: hsla(0, 0%, 100%, 0.75);
+  --white-stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+  font-family: "Inter", "Lexend Deca", sans-serif;
+  background-color: var(--main-bg-color);
+  font-size: 15px;
+}
+
+#header {
+  background-color: var(--card-bg-color);
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+h1, h2, p {
+  color: var(--white);
+}
+
+#main-par {
+  color: var(--white-main-par);
+}
+
+#stat {
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.stat-headings {
+  color: var(--white-stat-headings);
+}
+
+#image-desktop {
+  display: block;
+}
+
+#image-mobile {
+  display: none; 
+}
+
+.filtr {
+  filter: blur(5px);
+}
