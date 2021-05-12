@@ -47,7 +47,3 @@ h1, h2, p {
 #image-mobile {
   display: none; 
 }
-
-.filtr {
-  filter: blur(5px);
-}
